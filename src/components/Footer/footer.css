@@ -1,0 +1,119 @@
+.footer {
+    margin: 50px 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top-left p {
+    font-size: 20px;
+    max-width: 400px;
+}
+
+.footer-top-right {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.footer-email-input {
+    display: flex;
+    gap: 30px;
+    padding: 20px 30px;
+    border-radius: 50px;
+    background: #32323B;
+    padding-right: 80px;
+}
+
+.footer-email-input input {
+    outline: none;
+    background: transparent;
+    color: #a0a0a0;
+    border: none;
+    font-family: Outline;
+    font-size: 18px;
+}
+.footer-suscribe{
+    font-size: 20px;
+    padding: 22px 50px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.footer-bottom-right{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+@media (max-width:1024px) {
+    .footer {
+        margin: 50px 80px;
+    }
+    .footer-top-left p {
+        font-size: 17px;
+    }
+    .footer-email-input {
+        padding: 20px 25px;
+    }
+    .footer-email-input input {
+        font-size: 17px;
+    }
+    .footer-suscribe {
+        font-size: 18px;
+        padding: 22px 40px;
+    }
+    .footer-bottom {
+        font-size: 17px;
+    }
+}
+@media (max-width:768px) {
+    .footer{
+        margin: 50px 70px;
+    }
+    .foooter-top{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .footer-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+}
+@media (max-width:540px) {
+    .footer{
+        margin: 50px 50px;
+    }
+    .footer-top-right {
+        flex-direction: column;
+    }
+    .footer-suscribe {
+        padding: 22px 49px;
+        margin-right: 155px;
+    }
+    .footer-bottom-right {
+        margin-bottom: 20px;
+    }
+    .footer-bottom-right p{
+        font-size: 15px;
+        margin: 0;
+    }
+    .footer-bottom {
+        margin-top: 0px;
+    }
+    .footer-bottom-left{    
+        font-size: 15px;
+    }
+}
